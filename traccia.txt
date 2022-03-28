@@ -1,0 +1,16 @@
+
+- Si realizzi un’applicazione multithreaded che, data una matrice rettangolare di interi,
+  individua, se esiste, un elemento che è contemporaneamente il massimo della propria
+  riga ed il minimo della propria colonna.
+
+- In particolare, data una matrice n x m, si utilizzino:
+
+    - n thread, ciascuno dei quali calcola il massimo di una determinata riga della
+      matrice;
+
+    - m thread, ciascuno dei quali calcola il minimo di una determinata colonna della
+      matrice.
+
+- Si definisca un main che inizializza una matrice di test e, utilizzando opportunamente
+  gli oggetti thread, individua e stampa la posizione di un elemento della matrice che è
+  massimo della propria riga e  minimo della propria colonna.
